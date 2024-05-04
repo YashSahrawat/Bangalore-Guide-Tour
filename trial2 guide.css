@@ -1,0 +1,120 @@
+header {
+    font-size: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav2 {
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav2 .ul2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav2 .ul2  li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#content {
+    text-align: center;
+    background-image: url(kar_img.jpg);
+    width:100%;
+    height: 400px;
+    padding: 20px;
+    text-shadow: rgba(0, 0, 0, 0.75) 0px 8px 8px;
+
+    color: #fff;
+
+}
+/*.BangaloreImage{
+    background-image: url(kar_img.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    height: 375px !important;
+    min-height: 375px !important;
+}*/
+.title{
+    margin: 40px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.75) 0px 8px 8px;
+    color: #fff;
+    font-size: 30px;
+}
+.title2{
+    padding: 40px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.495) 0px 8px 8px;
+    color: rgb(239, 241, 246);
+    font-size: 30px;
+}
+.title3{
+    padding: 40px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.495) 0px 8px 8px;
+    color: rgb(250, 251, 250);
+    font-size: 30px;
+}
+/*#mapContainer {
+    justify-content: center;
+ align-content: center;
+    margin:40px 40px 40px 40px;
+}*/
+
+/*#map {justify-content: center;
+    align-content: center;
+    height: 100px;
+    position: relative;
+}*/
+.bottomnav{
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height:60px;
+    position: fixed;
+    bottom:0px;
+    background: rgb(109, 108, 108);
+}
+.bottomplace
+{   justify-content: space-evenly;
+    padding-left:10px;
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+    display: flex;
+    color:blanchedalmond;
+}
+.bottomplace p
+{   /*text-decoration: none;
+    justify-content: space-evenly;
+    /*padding-left: 10px;
+    text-align: center;
+    align-content: center;*/
+    margin-right: 40px;
+    margin-top: 10px;
+    display: flex;
+    color:blanchedalmond;
+}
+.bottomplace p a{
+    color:blanchedalmond;
+text-decoration: none;  
+}
+.bottomplace i{
+    
+    color:#f4f4f4;
+    font-size: 1rem;
+}
