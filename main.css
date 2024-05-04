@@ -282,8 +282,9 @@ border-radius: 5px;
   margin-left: 30px;
   height:400px;
 }
-/*.place1:hover {
-  background-color: blue;*/
+.place1:hover {
+  box-shadow: 2px 8px 16px rgba(0, 0, 0, .1),2px 2px 4px rgba(0, 0, 0, 1.1);
+
   
 }
 .place1 img{
@@ -315,7 +316,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height:400px;
   }
   .place2:hover {
-    box-shadow: 10px;
+   box-shadow: 2px 8px 16px rgba(0, 0, 0, .1),2px 2px 4px rgba(0, 0, 0, 1.1);
     
   }
   .place2 img{
