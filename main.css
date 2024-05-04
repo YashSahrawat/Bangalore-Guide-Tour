@@ -5,22 +5,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-}
 body{
 
   background-image: url(backimg.jpg);
@@ -283,8 +267,7 @@ border-radius: 5px;
   height:400px;
 }
 .place1:hover {
-  box-shadow: 2px 8px 16px rgba(0, 0, 0, .1),2px 2px 4px rgba(0, 0, 0, 1.1);
-
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 1.1);
   
 }
 .place1 img{
@@ -316,7 +299,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height:400px;
   }
   .place2:hover {
-   box-shadow: 2px 8px 16px rgba(0, 0, 0, .1),2px 2px 4px rgba(0, 0, 0, 1.1);
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 1.1);
     
   }
   .place2 img{
@@ -352,7 +335,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .place3:hover {
       
-      background-color: white;
+      box-shadow: 2px 2px 16px rgba(0, 0, 0, 1.1);
       
     }
     .place3 img{
@@ -395,12 +378,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.1), 2px 8px 16px rgba(0, 0, 0, .1);
       display: inline-block;
       border:1px solid black;
-    
+    width: fit-content;
       margin-left: 30px;
       height:400px;
     }
     .content2 .place1:hover {
-      background-color: white;
+      box-shadow: 2px 2px 16px rgba(0, 0, 0, 1.1);
       
     }
     .content2  .place1 img{
@@ -435,9 +418,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         border:1px solid black;
         margin: 0px 10px 0px 10px;
         height:400px;
+        width: fit-content;
       }
       .content2 .place2:hover {
-        background-color: white;
+        box-shadow: 2px 2px 16px rgba(0, 0, 0, 1.1);
         
       }
       .content2 .place2 img{
@@ -469,11 +453,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.1), 2px 8px 16px rgba(0, 0, 0, .1);
           display: inline-block;
           border:1px solid black;
-          
+          width: fit-content;
           height:400px;
         }
         .content2 .place3:hover {
-          background-color: white;
+          box-shadow: 2px 2px 16px rgba(0, 0, 0, 1.1);
           
         }
         .content2 .place3 img{
